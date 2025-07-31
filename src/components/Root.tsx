@@ -52,8 +52,8 @@ const Container = styled.div`
   height: 100vh;
   align-items: center;
   flex-direction: column;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 `
 
 const Title = styled.h1`
@@ -80,7 +80,7 @@ const Block = styled.div<{ $gap?: string }>`
 `
 
 const MiniKeysBlock = styled(Block)`
-  margin-top: 10vh;
+  margin-top: 5vh;
 `
 
 const Link = styled.a`

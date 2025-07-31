@@ -125,11 +125,11 @@ export const KeyboardWrapper = ({ playNoteFromMidi, setSustain }: Props) => {
 
   return (
     <Keyboard
-      width={1400}
+      width={1200}
       dualMode={false}
       animate={true}
       showFullKeyboard={true}
-      activeKeys={activeKeys.map((key) => key.keyCode)}
+      activeKeys={activeKeys}
       keyMap={keyMap}
       onKeyClick={playNoteFromMidi}
       modifierKeys={modifierKeys}
